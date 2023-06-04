@@ -1,0 +1,385 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: sans-serif;
+  align-items: center;
+  background: linear-gradient(23deg, rgb(5, 59, 0) 16%, rgb(158, 228, 67) 44%, rgb(14, 104, 21) 60%, rgb(50, 221, 59) 88%, rgb(18, 100, 7) 93%);
+  animation: gradient 15s ease infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  margin: auto;
+  padding: 0%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 2rem;
+}
+
+#header {
+  width: 80%;
+  padding: 1.5rem 0;
+  margin: 5rem auto;
+  color: #135c1d;
+  border-radius: 3rem;
+}
+
+#header .logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+}
+
+#header .logo a {
+  font-size: 3rem;
+  color: #135c1d;
+  text-shadow: 0 0 15px #fff;
+}
+
+/*--------------------------------------------------------------
+# alert
+--------------------------------------------------------------*/
+#alert {
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+#alert {
+  width: 80%;
+  padding: 5rem 0;
+  margin: 5rem auto;
+  color: #fff;
+  border-radius: 3rem;
+}
+
+#alert .logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: "great vibes";
+}
+
+#alert .logo a {
+  color: #135c1d;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  text-shadow: 0 0 5px #fff;
+}
+
+/*--------------------------------------------------------------
+# Home Section
+--------------------------------------------------------------*/
+#home {
+  width: 100%;
+  height: 95vh;
+}
+
+#home .home-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#home .home-info {
+  padding: 2rem;
+  margin: auto;
+}
+
+#home h1 {
+  margin: 0 0 10px 0;
+  padding-top: 10px;
+  font-size: 5rem;
+  width: 100%;
+  font-family: "Great Vibes";
+  color: #ffffff;
+  text-shadow: 10px 5px 10px #135c1d;
+}
+
+#home h6 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 50px;
+  font-family: "noto Nastaliq Urdu";
+  text-shadow: 1px 0 3px #0f5132;
+}
+
+#home h5 {
+  text-shadow: 1px 0 3px #0f5132;
+  color: #ffffff;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "poppins";
+  margin-top: 2rem;
+}
+
+#home p {
+  font-size: 13px;
+  color: #2b8300;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#home img {
+  width: 10%;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  padding-bottom: 2px;
+  font-family: "great vibes";
+}
+
+.section-title h2 {
+  font-size: 42px;
+  color: #027000;
+  position: relative;
+  text-shadow: 1px 1px 5px #224410;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #aab3c7;
+}
+
+/*--------------------------------------------------------------
+# say
+--------------------------------------------------------------*/
+.say {
+  position: relative;
+}
+
+.say .container {
+  position: relative;
+}
+
+.say h2 {
+  color: #fff;
+  text-shadow: 0px 0 15px rgb(18, 66, 12);
+}
+
+.say .fulanah {
+  padding-top: 2rem;
+}
+
+.say h3 {
+  padding-top: 0%;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-shadow: 0px 0 5px rgba(7, 119, 17, 0.74);
+  justify-content: center;
+  text-align: center;
+}
+
+.say a {
+  font-family: "poppins";
+  padding: 3px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: #ffffff;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.say a:hover {
+  color: #2b8300;
+}
+
+.say h5 {
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.say button {
+  border-radius: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  background-color: #2b8300;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.say button:hover {
+  background-color: #fff;
+  color: #2b8300;
+  border: 1px solid #2b8300;
+}
+
+/*--------------------------------------------------------------
+# gift
+--------------------------------------------------------------*/
+.gift {
+  text-align: center;
+  background: linear-gradient(0deg, rgba(31, 109, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.gift h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: "poppins";
+  text-shadow: 0 0 10px #135c1d;
+}
+
+input {
+  text-align: center;
+  color: #135c1d;
+  background: rgba(240, 210, 128, 0);
+  border: none;
+  font-size: 15px;
+}
+
+.modal-content {
+  padding: 1rem;
+  margin: auto;
+}
+
+button {
+  font-family: "poppins";
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  width: 50%;
+  margin: 1rem auto;
+  background-color: #2b8300;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: rgba(255, 255, 255, 0.5);
+  color: #2b8300;
+  font-size: 10px;
+  text-align: center;
+}
+
+#footer .social-links {
+  margin: 5px 0;
+}
+
+#footer .social-links a {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  display: inline-block;
+  color: #2b8300;
+  line-height: 1;
+  margin-right: 4px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  border-radius: 50%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+  color: #2b2b2b;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+/*======== MEDIA QUERIES ========*/
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+  .navbar {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .navbar {
+    width: 80%;
+    margin: auto;
+  }
+  .std p {
+    font-size: 1.5rem;
+  }
+  .mempelai .member .member-info h3 {
+    font-size: 3rem;
+  }
+  .mempelai .member .member-info h6 {
+    font-size: 1.5rem;
+  }
+  .mempelai .member .member-info h5 {
+    font-size: 2rem;
+  }
+  .mempelai .member .member-info p {
+    font-size: 1.5rem;
+  }
+  .gift button {
+    font-size: 1.5rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  #home img {
+    width: 50%;
+  }
+}
